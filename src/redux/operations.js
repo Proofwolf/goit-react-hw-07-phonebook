@@ -17,6 +17,7 @@ export const fetchContacts = createAsyncThunk(
   }
 );
 
+
 //Створюємо асинхроний thunk для додавання нового контакту
 export const addContact = createAsyncThunk(
   'contacts/addContact',
